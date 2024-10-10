@@ -1,7 +1,23 @@
-let idade = 18
+let x= 25;
+let y= 30;
 
-if (idade >= 18) {
-  console.log('voce é de menor')
-} else {
-  console.log('voce é de maior')
+if (x > y) {
+  console.log('x é maior que y')
+  
+}else{
+  console.log('y é menor que x' )
+
+
+}
+
+
+let CidadeGrande = 300.000;
+let CidadePequena = 100.00;
+
+if (CidadeGrande < 300.000) {
+  console.log("Cidade Grande")
+  
+}else{
+console.log("Cidade Pequena")
+
 }
