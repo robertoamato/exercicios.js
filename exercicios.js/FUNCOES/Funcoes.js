@@ -1,9 +1,9 @@
-function SaudeFinanceira(receitas, gastos) {
-  if (receitas < gastos) {
-    return 'Voce esta no vermelho'
+function SaudeFinanceira(ganhos, gastos) {
+  if (ganhos > gastos) {
+    return 'Voce esta no azul'
     
   }else{
-    return 'Voce esta no azul'
+    return 'Voce esta no vermelho'
 
   }
  
