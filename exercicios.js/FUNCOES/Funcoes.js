@@ -17,3 +17,9 @@ console.log(marcos);
 
 // Function do tipo void
 
+function soma( numero1,  numero2) {
+   const SomaDosNumero = numero1 + numero2
+   console.log(SomaDosNumero);
+  }
+ soma(1000,2000);
+ 
