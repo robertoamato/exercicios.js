@@ -36,3 +36,6 @@ function soma( numero1,  numero2) {
  }
 
  DizerOla()
+ soma(2800, 100)
+ soma1(5000,10)
+ 
