@@ -12,3 +12,15 @@ const roberto = SaudeFinanceira (10000, 3500)
 console.log(maria)
 console.log(pedro)
 console.log(roberto)
+
+
+function GanhosEGastos(salario, gastos) {
+  if (salario > gastos) {
+    return "Voce esta no azul"
+    
+  }else{
+     return "voce esta no vermelho"
+  }
+  }
+let Marcos = GanhosEGastos (2000,3000);
+console.log(Marcos);
