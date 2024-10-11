@@ -14,3 +14,6 @@ function GanhosEGastos(Ganhos, gastos) {
 
 let marcos = GanhosEGastos (3000,5000)
 console.log(marcos);
+
+// Function do tipo void
+
