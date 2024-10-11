@@ -1,26 +1,16 @@
-function SaudeFinanceira(ganhos, gastos) {
-  if (ganhos > gastos ) {
-    return 'Voce esta no azul'
-  } else {
-    return 'Voce esta no vermelho'
-  }
-}
+// Exemplos de funcoes
 
-const maria = SaudeFinanceira(1000, 11000)
-const pedro = SaudeFinanceira(2999, 1000)
-const roberto = SaudeFinanceira (10000, 3500)
-console.log(maria)
-console.log(pedro)
-console.log(roberto)
+// Funcao classica
 
-
-function GanhosEGastos(salario, gastos) {
-  if (salario > gastos) {
-    return "Voce esta no azul"
+function GanhosEGastos(Ganhos, gastos) {
+  if (Ganhos > gastos) {
+    return "voce esta no azul"
     
   }else{
-     return "voce esta no vermelho"
+    return "voce esta no vermelho"
   }
-  }
-let Marcos = GanhosEGastos (2000,3000);
-console.log(Marcos);
+
+}
+
+let marcos = GanhosEGastos (3000,5000)
+console.log(marcos);
