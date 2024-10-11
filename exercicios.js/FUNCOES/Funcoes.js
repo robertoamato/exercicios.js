@@ -21,5 +21,11 @@ function soma( numero1,  numero2) {
    const SomaDosNumero = numero1 + numero2
    console.log(SomaDosNumero);
   }
- soma(1000,2000);
+ soma(1000,2000)
  
+ function soma1(numero3, numero4) {
+  let calcular =numero3 + numero4
+  console.log(calcular);
+ 
+ }
+ soma1(1900,1500)
