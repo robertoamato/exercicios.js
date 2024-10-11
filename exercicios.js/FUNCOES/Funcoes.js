@@ -29,3 +29,10 @@ function soma( numero1,  numero2) {
  
  }
  soma1(1900,1500)
+
+ function DizerOla() {
+  console.log("olá mundo");
+  
+ }
+
+ DizerOla()
