@@ -39,3 +39,15 @@ function soma( numero1,  numero2) {
  soma(2800, 100)
  soma1(5000,10)
  
+ function NotaDoAluno(nota10,nota5) {
+  if (nota10 > nota5) {
+    return "aluno passou de ano"
+    
+  }else{
+    return "aluno reprovou"
+
+  }
+  
+ }
+ let roberto = NotaDoAluno(10,10)
+ console.log(roberto);
