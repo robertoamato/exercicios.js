@@ -19,3 +19,14 @@ if (CidadeGrande <= 200.0) {
 } else {
   console.log('Cidade Pequena');  // Se não for menor que 300, imprime "Cidade Pequena"
 }
+
+function Aprovados(nota) {
+  if (nota < 5) {
+    console.log (nota +  "voce foi reprovado")
+    
+  }else{
+
+  } 
+  
+}
+Aprovados(3);

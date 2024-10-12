@@ -51,3 +51,14 @@ function soma( numero1,  numero2) {
  }
  let roberto = NotaDoAluno(10,10)
  console.log(roberto);
+
+ const Meta = 6
+ if (meta >= 6) {
+  console.log('voce passou de ano');  
+ }else{
+  console.log('voce reprovou')
+
+ }
+ Alexandre(4)
+  
+ 
