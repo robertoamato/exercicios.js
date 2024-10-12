@@ -22,10 +22,10 @@ if (CidadeGrande <= 200.0) {
 
 function Aprovados(nota) {
   if (nota >= 5) {
-    console.log (nota +  "voce foi aprovado")
+    console.log (nota +  " voce foi aprovado")
     
   }else{
-      console.log( nota +  'voce foi reprovado')
+      console.log('voce foi reprovado ' + nota)
   } 
   
 }
@@ -33,3 +33,4 @@ function Aprovados(nota) {
 Aprovados(6)
 Aprovados(5)
 Aprovados(4)
+Aprovados(1)
