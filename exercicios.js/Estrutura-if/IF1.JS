@@ -34,3 +34,20 @@ Aprovados(6)
 Aprovados(5)
 Aprovados(4)
 Aprovados(1)
+
+function Aprovados1(valor) {
+
+  if (valor) {
+    console.log('é verdade... ' + valor)
+    
+  }
+  
+}
+
+Aprovados1()
+Aprovados1(null)
+Aprovados1(undefined)
+Aprovados1(NaN)
+Aprovados1('')
+Aprovados1(0)
+Aprovados1(-1)
