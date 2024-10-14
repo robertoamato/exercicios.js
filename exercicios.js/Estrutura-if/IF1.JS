@@ -51,3 +51,16 @@ Aprovados1(NaN)
 Aprovados1('')
 Aprovados1(0)
 Aprovados1(-1)
+
+function MegaCidades(habitantes) {
+  if (habitantes >= 200.000) {
+    return 'cidade é grande'
+    
+  }else 
+    return 'cidade é pequena '
+}
+
+let saoPaulo = MegaCidades(300.000)
+console.log(' Sao Paulo é uma ' + saoPaulo  );
+let Campinas = MegaCidades ( 199.000)
+console.log ( ' Campinas é uma  ' + Campinas );
