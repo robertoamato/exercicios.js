@@ -64,3 +64,33 @@ let saoPaulo = MegaCidades(300.000)
 console.log(' Sao Paulo é uma ' + saoPaulo  );
 let Campinas = MegaCidades ( 199.000)
 console.log ( ' Campinas é uma  ' + Campinas );
+
+// EXEMPLO DE ELSE/IF
+
+// Função para verificar se um número está entre dois valores
+Number.prototype.entre = function (inicio, fim) {
+  return this >= inicio && this <= fim;
+};
+
+// Função para verificar se um número está entre dois valores
+Number.prototype.entre = function (inicio, fim) {
+  return this >= inicio && this <= fim;
+};
+
+const imprimirResultado = function (nota) {
+  if (nota.entre(9, 10)) {
+      console.log('Quadro de honra');
+  } else if (nota.entre(7, 8.99)) {
+      console.log('Aprovado');
+  } else if (nota.entre(4, 6.99)) {
+      console.log('Recuperação');
+  } else if (nota.entre(0, 3.99)) {
+      console.log('Reprovado');
+  } else {
+      console.log('Nota inválida');
+  }
+};
+
+imprimirResultado(10)
+imprimirResultado(8.9)
+imprimirResultado(6.55)
