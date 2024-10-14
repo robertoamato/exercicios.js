@@ -77,22 +77,39 @@ Number.prototype.entre = function (inicio, fim) {
   return this >= inicio && this <= fim;
 };
 
+// Define uma função anônima chamada 'imprimirResultado' que recebe uma nota como parâmetro
 const imprimirResultado = function (nota) {
+
+  // Verifica se a nota está entre 9 e 10
   if (nota.entre(9, 10)) {
+      // Se a nota estiver nesse intervalo, imprime "Quadro de honra"
       console.log('Quadro de honra');
+
+  // Verifica se a nota está entre 7 e 8.99
   } else if (nota.entre(7, 8.99)) {
+      // Se a nota estiver nesse intervalo, imprime "Aprovado"
       console.log('Aprovado');
+
+  // Verifica se a nota está entre 4 e 6.99
   } else if (nota.entre(4, 6.99)) {
+      // Se a nota estiver nesse intervalo, imprime "Recuperação"
       console.log('Recuperação');
+
+  // Verifica se a nota está entre 0 e 3.99
   } else if (nota.entre(0, 3.99)) {
+      // Se a nota estiver nesse intervalo, imprime "Reprovado"
       console.log('Reprovado');
+
+  // Se a nota não se encaixar em nenhum dos intervalos acima
   } else {
+      // Imprime "Nota inválida" para notas que não são válidas
       console.log('Nota inválida');
   }
 };
 
-imprimirResultado(10)
-imprimirResultado(8.9)
-imprimirResultado(6.55)
-imprimirResultado(2.3)
-imprimirResultado(1.1)
+// Chama a função passando diferentes notas para testar os resultados
+imprimirResultado(10);     // Esperado: "Quadro de honra"
+imprimirResultado(8.9);    // Esperado: "Aprovado"
+imprimirResultado(6.55);   // Esperado: "Recuperação"
+imprimirResultado(2.3);    // Esperado: "Reprovado"
+imprimirResultado(1.1);    // Esperado: "Reprovado"
